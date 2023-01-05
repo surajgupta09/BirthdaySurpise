@@ -1,9 +1,9 @@
 
-var radius = 240; // how big of the radius
+var radius = 320; // how big of the radius
 var autoRotate = true; // auto rotate or not
-var rotateSpeed = -60; // unit: seconds/360 degrees
-var imgWidth = 150; // width of images (unit: px)
-var imgHeight = 170; // height of images (unit: px)
+var rotateSpeed = -160; // unit: seconds/360 degrees
+var imgWidth = 220; // width of images (unit: px)
+var imgHeight = 250; // height of images (unit: px)
 
 
 

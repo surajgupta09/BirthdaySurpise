@@ -9,11 +9,7 @@
     /* for touch screen */
     touch-action: none; 
   }
-  audio{
-    position: fixed;
-    top: 10%;
-    left: 10%;
-  }
+  
   body {
     overflow: hidden;
     display: -webkit-box;
@@ -25,7 +21,11 @@
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
   }
-  
+  p{
+    font-size: 90px;
+    text-align: justify;
+    font-weight: bolder;
+  }
   #drag-container, #spin-container {
     position: relative;
     display: -webkit-box;
@@ -69,7 +69,16 @@
             transform: translate(-50%,-50%) rotateX(90deg);
     color: #fff;
   }
-  
+   audio{
+    position: fixed;
+    top: 10%;
+    left: 10%;
+   }
+   #header{
+    position: fixed;
+    top: 25%;
+    left: 10%;
+   }
   #ground {
     width: 900px;
     height: 900px;
@@ -85,6 +94,22 @@
     position: absolute;
     top: 0;
     left: 0;
+  }
+  .glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
   }
   
   @-webkit-keyframes spin {
