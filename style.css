@@ -9,7 +9,11 @@
     /* for touch screen */
     touch-action: none; 
   }
-  
+  audio{
+    position: fixed;
+    top: 10%;
+    left: 10%;
+  }
   body {
     overflow: hidden;
     display: -webkit-box;
